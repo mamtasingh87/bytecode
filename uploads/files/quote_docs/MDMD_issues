@@ -1,0 +1,80 @@
+Account Deactivation
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/page-edit-profile.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/account_deactivate.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/page-sign-in.php
+
+MDMD Task
+
+
+7. We need to test these functions with each membership levels 
+One Day Member
+Diamond Member
+Black Member
+NOT UNDERSTOOD
+
+12.Needs to be clickable to link them back to the corresponding model page. 
+HOW TO DO??
+17.HOW IT WORKS + INFO + TICKET 
+When expanding the browser to its full length the description placed over the background image spans down the page. This section needs to fit to the page like the models/events/trips page does. NOT UNDERSTOOD
+-> Development Pending
+18.When the page shrinks too much, the description placed over the background image overlaps the title of the page 
+-> Development NOT UNDERSTOOD
+**************************************************************************************************************
+1.Trip page: link in contact us DONE
+
+2. Remove "Contact Us" link from Info and Ticket page DONE
+
+3.Here's How it Works-DONE
+Number each title
+1.  Join the MDMD community
+2.  Select your experience
+3.  Select your model (previous text "Create your crowd)
+
+4. Renewal of account -> DONE
+
+->When clicking the "Book" button, this should bring a user to the sign-in/sign-up page if not already logged in DONE
+
+->Remove date and calendar from the event information. Currently, the date and calendar has only been removed from the first event page. When clicking "Dining" or any other tab, the date and calendar reappear DONE
+
+->Move the "OTHER" tab to the end of the list (right side) DONE
+
+5. Upgrade account DONE
+6. Redirect direct to homepage on logout. DONE
+frontend: DONE
+admin: DONE
+8.MODELS??
+Infinity Bar
+Needs to be scrollable (like the trips page)
+Small separation between each image
+DONE
+ 
+9.BIO -> Designing
+Shift info text up
+DONE
+10.HOW IT WORKS -> Akash -> DONE
+11.EVENTS -> Ashwani -> DONE
+13.Top right Model Image ->Ashwani -> DONE
+14.Sub Directory tabs -> Ashwani -> DONE
+15.TRIPS??
+Information Section
+"Contact Us" button is placed too far down -> Development DONE 
+"Contact Us" button should pop a form (let's put a temporary filler form for users to fill out until MDMD provides the information)??
+DONE
+ 
+16.Book-> Akash -> DONE
+**************************************************************************************************************
+/var/www/html/mdmd/stripe_signup/stripe.php
+/var/www/html/mdmd/stripe_signup/index.php
+/var/www/html/mdmd/stripe_signup/plan_change.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/page-edit-profile.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/archive-event.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/taxonomy-event_type.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/page-8.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/page-ticket.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/archive-trip.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/page-info.php
+/var/www/html/quoteslashnew/application/modules/users/controllers/account.php
+/var/www/html/quoteslashnew/application/modules/users/views/account/view_quote.php
+/var/www/html/mdmd/wp-content/themes/bootstrap-ultimate/archive-trip.php
+/var/www/html/quoteslashnew/application/modules/quote/controllers/admin/quote.php
+/var/www/html/quoteslashnew/application/modules/quote/views/admin/details.php

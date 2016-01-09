@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=PMSFox Client
+Comment=The Smarter Way to Code
+Exec=/bin/sh "/opt/PMSFoxClient/PMS.sh"
+Icon=/opt/PMSFoxClient/favicon.png
+Categories=Application
+Type=Application
+Terminal=false
+GenericName[en_US]=

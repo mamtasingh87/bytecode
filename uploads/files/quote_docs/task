@@ -1,0 +1,14 @@
+class="b-from-right b-animate b-delay03 view-more"
+ <a class="b-from-right b-animate b-delay03 view-more" href="#popup<?php echo $key; ?>" data-effect="mfp-zoom-in">Know More</a>
+  <a name="pop_a" class="b-from-right b-animate b-delay03 view-more" href="#" data-value="<?php echo $value['id']; ?>" data-effect="mfp-zoom-in">Know More</a>
+                                             
+maaz@2015$
+https://app.icontact.com/
+User : hello.ramsay@gmail.com
+Pass : alok@123
+Api URL : 
+https://github.com/icontact/icontact-api-php
+Dowoload api put in thirdparty folder
+require file set config 
+then add contacts
+1) in registration

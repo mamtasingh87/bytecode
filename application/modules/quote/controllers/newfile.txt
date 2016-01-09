@@ -1,0 +1,10 @@
+Hello World. Testing!<Zoho> 
+    <FirstName>Mamta</FirstName>
+    <LastName>Singh</LastName>
+    <Email>mamta@unicodesystems.in</Email>
+    <YearBuilt>2015</YearBuilt>
+    <CoverageA>1200</CoverageA>
+    <SquareFeet>500</SquareFeet>
+    <ConstructionType>Masonry</ConstructionType>
+    <PolicyType>HO3</PolicyType>
+</Zoho>

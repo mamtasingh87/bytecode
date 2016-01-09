@@ -1,0 +1,102 @@
+[09-Nov-2015 09:13:13 UTC] PHP Parse error:  syntax error, unexpected '$ci' (T_VARIABLE) in /home/rolex1/public_html/newsite/application/helpers/email_template_helper.php on line 11
+[13-Nov-2015 13:09:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'DateTime::__construct(): Failed to parse time string (01-23-1915) at position 0 (0): Unexpected character' in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php:240
+Stack trace:
+#0 /home/rolex1/public_html/newsite/application/modules/quote/plugin.php(240): DateTime->__construct('01-23-1915')
+#1 /home/rolex1/public_html/newsite/application/modules/quote/plugin.php(206): Quote_plugin->_process_quote_request_form(Array, '', 'Quotes Slash')
+#2 [internal function]: Quote_plugin->quote_request_form(Array)
+#3 /home/rolex1/public_html/newsite/application/libraries/Plugins.php(194): call_user_func(Array, Array)
+#4 /home/rolex1/public_html/newsite/application/libraries/Plugins.php(134): Plugins->_process('application/mod...', 'quote', 'quote_request_f...', Array, '', Array)
+#5 /home/rolex1/public_html/newsite/application/libraries/MY_Parser.php(157): Plugins->locate('quote:quote_req...', Array, '', Array)
+#6 [internal function]: MY_Parser->parser_callback( in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 240
+[13-Nov-2015 13:11:25 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 241
+[13-Nov-2015 13:15:50 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 474
+[13-Nov-2015 16:24:25 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 241
+[13-Nov-2015 16:24:50 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 241
+[13-Nov-2015 16:33:24 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 474
+[13-Nov-2015 16:35:26 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 474
+[14-Nov-2015 08:44:48 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 241
+[14-Nov-2015 13:34:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to call the method "saveIContact" on the class Users_model' in /home/rolex1/public_html/newsite/application/libraries/datamapper.php:1209
+Stack trace:
+#0 /home/rolex1/public_html/newsite/application/modules/users/controllers/users.php(221): DataMapper->__call('saveIContact', Array)
+#1 /home/rolex1/public_html/newsite/application/modules/users/controllers/users.php(221): Users_model->saveIContact(Array, 61)
+#2 [internal function]: Users->register()
+#3 /home/rolex1/public_html/newsite/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/rolex1/public_html/newsite/index.php(253): require_once('/home/rolex1/pu...')
+#5 {main}
+  thrown in /home/rolex1/public_html/newsite/application/libraries/datamapper.php on line 1209
+[14-Nov-2015 13:50:55 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to call the method "saveIContact" on the class Users_model' in /home/rolex1/public_html/newsite/application/libraries/datamapper.php:1209
+Stack trace:
+#0 /home/rolex1/public_html/newsite/application/modules/users/controllers/users.php(221): DataMapper->__call('saveIContact', Array)
+#1 /home/rolex1/public_html/newsite/application/modules/users/controllers/users.php(221): Users_model->saveIContact(Array, 62)
+#2 [internal function]: Users->register()
+#3 /home/rolex1/public_html/newsite/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/rolex1/public_html/newsite/index.php(253): require_once('/home/rolex1/pu...')
+#5 {main}
+  thrown in /home/rolex1/public_html/newsite/application/libraries/datamapper.php on line 1209
+[14-Nov-2015 14:23:00 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to call the method "saveIContact" on the class Users_model' in /home/rolex1/public_html/newsite/application/libraries/datamapper.php:1209
+Stack trace:
+#0 /home/rolex1/public_html/newsite/application/modules/users/controllers/users.php(221): DataMapper->__call('saveIContact', Array)
+#1 /home/rolex1/public_html/newsite/application/modules/users/controllers/users.php(221): Users_model->saveIContact(Array, 66)
+#2 [internal function]: Users->register()
+#3 /home/rolex1/public_html/newsite/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/rolex1/public_html/newsite/index.php(253): require_once('/home/rolex1/pu...')
+#5 {main}
+  thrown in /home/rolex1/public_html/newsite/application/libraries/datamapper.php on line 1209
+[16-Nov-2015 10:08:37 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 485
+[16-Nov-2015 10:09:26 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 485
+[16-Nov-2015 10:09:35 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 485
+[16-Nov-2015 10:14:10 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/newsite/application/modules/quote/plugin.php on line 485
+[16-Nov-2015 10:43:07 UTC] PHP Fatal error:  require_once(): Failed opening required 'application/libraries/iContactApi.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/rolex1/public_html/newsite/application/modules/users/models/users_model.php on line 408
+[17-Nov-2015 20:24:42 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 248
+[18-Nov-2015 06:57:16 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unable to call the method "saveQuoteRequestLog" on the class User_log_points_model' in /home/rolex1/public_html/application/libraries/datamapper.php:1209
+Stack trace:
+#0 /home/rolex1/public_html/application/modules/quote/plugin.php(279): DataMapper->__call('saveQuoteReques...', Array)
+#1 /home/rolex1/public_html/application/modules/quote/plugin.php(279): User_log_points_model->saveQuoteRequestLog(Array)
+#2 /home/rolex1/public_html/application/modules/quote/plugin.php(209): Quote_plugin->_process_quote_request_form(Array, 'Screenshot_from...', 'gaurav rao')
+#3 [internal function]: Quote_plugin->quote_request_form(Array)
+#4 /home/rolex1/public_html/application/libraries/Plugins.php(194): call_user_func(Array, Array)
+#5 /home/rolex1/public_html/application/libraries/Plugins.php(134): Plugins->_process('application/mod...', 'quote', 'quote_request_f...', Array, '', Array)
+#6 /home/rolex1/public_html/application/libraries/MY_Parser.php(157): Plugins->locate('quote:quote in /home/rolex1/public_html/application/libraries/datamapper.php on line 1209
+[18-Nov-2015 20:42:56 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 248
+[18-Nov-2015 21:23:39 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 248
+[18-Nov-2015 21:29:08 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 248
+[19-Nov-2015 12:23:52 UTC] PHP Fatal error:  Call to undefined method stdClass::SaveUserToIcontact() in /home/rolex1/public_html/application/modules/contact/controllers/captcha.php on line 102
+[19-Nov-2015 15:58:06 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[20-Nov-2015 16:06:49 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[24-Nov-2015 17:53:57 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[24-Nov-2015 17:54:46 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[24-Nov-2015 18:27:54 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[24-Nov-2015 18:39:56 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[24-Nov-2015 18:42:28 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 252
+[27-Nov-2015 15:09:06 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 309
+[03-Dec-2015 18:29:11 UTC] PHP Fatal error:  Call to undefined function url_encode() in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php on line 236
+[03-Dec-2015 18:54:53 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 309
+[04-Dec-2015 10:10:51 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php:277
+Stack trace:
+#0 /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php(277): SimpleXMLElement->__construct('success')
+#1 /home/rolex1/public_html/application/modules/quote/controllers/cron.php(13): Quote_request_model->SaveNewQuoteToZoho(Array, Array)
+#2 [internal function]: cron->quote()
+#3 /home/rolex1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/rolex1/public_html/index.php(253): require_once('/home/rolex1/pu...')
+#5 {main}
+  thrown in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php on line 277
+[04-Dec-2015 10:13:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php:277
+Stack trace:
+#0 /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php(277): SimpleXMLElement->__construct('success')
+#1 /home/rolex1/public_html/application/modules/quote/controllers/cron.php(13): Quote_request_model->SaveNewQuoteToZoho(Array, Array)
+#2 [internal function]: cron->quote()
+#3 /home/rolex1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/rolex1/public_html/index.php(253): require_once('/home/rolex1/pu...')
+#5 {main}
+  thrown in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php on line 277
+[04-Dec-2015 10:14:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php:277
+Stack trace:
+#0 /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php(277): SimpleXMLElement->__construct('success')
+#1 /home/rolex1/public_html/application/modules/quote/controllers/cron.php(13): Quote_request_model->SaveNewQuoteToZoho(Array, Array)
+#2 [internal function]: cron->quote()
+#3 /home/rolex1/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home/rolex1/public_html/index.php(253): require_once('/home/rolex1/pu...')
+#5 {main}
+  thrown in /home/rolex1/public_html/application/modules/quote/models/quote_request_model.php on line 277
+[04-Dec-2015 16:11:19 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 309
+[16-Dec-2015 18:41:24 UTC] PHP Fatal error:  Call to a member function format() on a non-object in /home/rolex1/public_html/application/modules/quote/plugin.php on line 309
